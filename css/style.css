@@ -17,6 +17,10 @@ img {
     object-fit: cover;
 }
 
+.border {
+    border: 1px solid red;
+}
+
 
 body {
     position: relative;
@@ -89,8 +93,8 @@ tr:hover {
     left: 0;
     height: 100vh;
     z-index: 10;
-    width: 16.6666%;
-    max-width: 10vw;
+    width: 180px;
+    min-width:180px;
 }
 
 #sidebar .nav-item {
@@ -105,6 +109,50 @@ tr:hover {
 #sidebar .nav-item.active{
     border-left: 3px solid hsl(218, 41%, 30%);
 } 
-.right {
-    margin-left: 13%;
+
+.hambergur-menu {
+    display: none;
+}
+
+.main-content {
+    margin-left: 205px;
+    overflow-x: hidden;
+}
+
+.card-item .text-muted {
+    font-size: .9rem;
+}
+.data-card {
+    font-size: .9rem;
+}
+
+.nav-link {
+    font-size: .9rem;
+    padding-left: 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .sidebar {
+        display: none;
+    }
+
+    .hambergur-menu {
+        display: inline;
+        position: absolute;
+        top: 3rem;
+        left: 1rem;
+    }
+
+   .search-box {
+    display: none;
+   }
+
+    .main-content {
+        margin-left: 0;
+    }
 }
