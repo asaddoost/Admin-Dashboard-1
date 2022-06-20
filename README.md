@@ -2,8 +2,7 @@
 
 ✨Responsive Admin Dashboard website.
 - Using material design bootstrap(MDB5)
-- Responsive Developers Website Using HTML Css & Bootstrap5.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Designed for desktop version.
 
 [▶️ Launch Demo](https://asaddoost.github.io/Admin-Dashboard-1/)
 
