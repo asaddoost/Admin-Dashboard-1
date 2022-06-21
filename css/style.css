@@ -172,12 +172,7 @@ tr:hover {
 }
 
 
-
-
-
 @media only screen and (max-width: 768px) {
-
-    
 
     #sidebar {
         transform: translateX(-180px) !important;
@@ -187,8 +182,7 @@ tr:hover {
         transform: translateX(0px) !important;
         width: 140px;
     }
-    
-   
+     
     .nav-link {
         display: block;
         margin-top: -20px;
