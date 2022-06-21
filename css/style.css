@@ -17,11 +17,6 @@ img {
     object-fit: cover;
 }
 
-.border {
-    border: 1px solid red;
-}
-
-
 body {
     position: relative;
     width: 100%;
@@ -63,10 +58,6 @@ body {
 }
 .text-success {
     color:hsl(145, 96.7%, 70.7%) !important;
-}
-
-.border {
-    1px solid red !important;
 }
 
 thead,
@@ -138,25 +129,6 @@ tr:hover {
 
 .main-content {
     margin-left: 200px;
-    /* background-color: hsl(218, 41%, 15%);
-    background-image: radial-gradient(
-        650px circle at 0% 0%,
-        hsl(218, 41%, 35%) 15%,
-        hsl(218, 41%, 30%) 35%,
-        hsl(218, 41%, 20%) 75%,
-        hsl(218, 41%, 19%) 80%,
-        transparent 100%
-    ),
-
-    radial-gradient(
-        1250px circle at 100% 100%,
-        hsl(218, 41%, 35%) 15%,
-        hsl(218, 41%, 30%) 35%,
-        hsl(218, 41%, 20%) 75%,
-        hsl(218, 41%, 19%) 80%,
-        transparent 100%
-        ); */
-    
 }
 
 .card-item .text-muted {
