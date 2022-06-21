@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>Admin-Dashboard-1</title>
     <!-- MDB icon -->
     <link rel="icon" href="./img/logo.svg" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -30,9 +30,10 @@
   </head>
   <body>
     <!-- sidebar -->
-    <aside class="row sidebar">
+    <aside class="row">
       <div>
-        <nav class="col sidebar shadow bg-glass" id="sidebar">
+        <nav class="col sidebar shadow bg-glass show-menu d-none d-md-block" id="sidebar">
+          <i id="toggle" onclick="menuToggle()" class="hambergur-menu  fas fa-bars text-muted fa-lg fa-fw"></i>
           <a href="#" class="navbar-brand d-flex justify-content-center my-3">
             <img
               src="./img/logo.svg"
@@ -97,7 +98,7 @@
             <div class="col-md-9">
               <nav class="navbar py-3 bg-transparent shadow-0 w-100">
                 <div class="container d-flex justify-content-between ">
-                  <i class="hambergur-menu  fas fa-bars text-muted fa-lg fa-fw"></i>
+                  
                     <form id="search-box" class=" d-flex w-50 ml-outo" role="search">
                       <input
                         class="form-control me-2 bg-glass border-0"

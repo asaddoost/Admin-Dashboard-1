@@ -99,3 +99,10 @@
 });
 
 
+
+function menuToggle(){
+  let sidebar = document.querySelector('#sidebar');
+  let toggle = document.querySelector('#toggle');
+   sidebar.classList.toggle('show-menu');
+   toggle.classList.toggle('show-menu');
+}

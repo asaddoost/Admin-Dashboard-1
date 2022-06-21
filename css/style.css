@@ -110,8 +110,24 @@ tr:hover {
     border-left: 3px solid hsl(218, 41%, 30%);
 } 
 
+.show-menu {
+    transform: translateX(0px) !important;
+}
+
 .hambergur-menu {
-    display: none;
+    position: absolute;
+    top: 2rem;
+    right: -2rem;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: hsla(0, 0%, 100%, 0.15);
+    backdrop-filter: blur(30px);
+    padding: 1rem;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .main-content {
@@ -133,7 +149,6 @@ tr:hover {
         hsl(218, 41%, 20%) 75%,
         hsl(218, 41%, 19%) 80%,
         transparent 100%
-
         );
     
 }
@@ -155,20 +170,19 @@ tr:hover {
 
 
 @media only screen and (max-width: 768px) {
-    
-    .sidebar {
+
+    #sidebar {
         transform: translateX(-180px);
+        z-index: 1000;
     }
 
-    .hambergur-menu {
-        display: block;
-        position: absolute;
-        top: 3rem;
-        left: 1rem;
-        cursor: pointer;
+    #sidebar.show-menu {
+        transform: translateX(0px) !important;
     }
+
     .nav-link {
         display: block;
+        margin-top: -20px;
         margin-left: auto;
     }
 
