@@ -102,14 +102,6 @@ tr:hover {
     border-left: 3px solid hsl(218, 41%, 30%);
 } 
 
-#sidebar{
-    transform: translateX(0px);
-}
-
-
-/* #sidebar.show-menu{
-    transform: translateX(-180px);
-} */
 
 .hambergur-menu {
     position: absolute;
@@ -146,15 +138,16 @@ tr:hover {
 
 @media only screen and (max-width: 768px) {
 
-    #sidebar {
+    #sidebar{
         transform: translateX(-180px) !important;
     }
 
-    #sidebar.show-menu {
+    #sidebar.show-menu{
         transform: translateX(0px) !important;
-        width: 140px;
     }
-     
+    
+    
+    
     .nav-link {
         display: block;
         margin-top: -20px;
