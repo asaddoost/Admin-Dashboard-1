@@ -103,6 +103,6 @@
 function menuToggle(){
   let sidebar = document.querySelector('#sidebar');
   let toggle = document.querySelector('#toggle');
+  toggle.classList.toggle('show-menu');
    sidebar.classList.toggle('show-menu');
-   toggle.classList.toggle('show-menu');
 }
