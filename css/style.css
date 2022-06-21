@@ -95,6 +95,7 @@ tr:hover {
     z-index: 10;
     width: 180px;
     min-width:180px;
+    transition: all .7s ease;
 }
 
 #sidebar .nav-item {
@@ -110,9 +111,14 @@ tr:hover {
     border-left: 3px solid hsl(218, 41%, 30%);
 } 
 
-.show-menu {
-    transform: translateX(0px) !important;
+#sidebar{
+    transform: translateX(0px);
 }
+
+
+/* #sidebar.show-menu{
+    transform: translateX(-180px);
+} */
 
 .hambergur-menu {
     position: absolute;
@@ -132,7 +138,7 @@ tr:hover {
 
 .main-content {
     margin-left: 200px;
-    background-color: hsl(218, 41%, 15%);
+    /* background-color: hsl(218, 41%, 15%);
     background-image: radial-gradient(
         650px circle at 0% 0%,
         hsl(218, 41%, 35%) 15%,
@@ -149,7 +155,7 @@ tr:hover {
         hsl(218, 41%, 20%) 75%,
         hsl(218, 41%, 19%) 80%,
         transparent 100%
-        );
+        ); */
     
 }
 
@@ -171,15 +177,18 @@ tr:hover {
 
 @media only screen and (max-width: 768px) {
 
+    
+
     #sidebar {
-        transform: translateX(-180px);
-        z-index: 1000;
+        transform: translateX(-180px) !important;
     }
 
     #sidebar.show-menu {
         transform: translateX(0px) !important;
+        width: 140px;
     }
-
+    
+   
     .nav-link {
         display: block;
         margin-top: -20px;
